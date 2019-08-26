@@ -11,7 +11,7 @@ ESLint config for Agata projects
     1. For `node` projects
     ```javascript
         module.exports = {
-            extends: 'iqoption',
+            extends: 'agata',
             env: {
                 node: true
             }
@@ -20,7 +20,7 @@ ESLint config for Agata projects
     2. For frontend projects
     ```javascript
         module.exports = {
-            extends: 'iqoption',
+            extends: 'agata',
             env: {
                 browser: true
             }
@@ -29,7 +29,7 @@ ESLint config for Agata projects
     3. For `./test` folder
         ```javascript
             module.exports = {
-                extends: 'iqoption',
+                extends: 'agata',
                 env: {
                     node: true,
                     mocha: true // or any other test framework you use

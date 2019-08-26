@@ -27,7 +27,7 @@ module.exports = {
         "block-spacing": "error",
         "brace-style": ["error", "stroustrup"],
         "callback-return": ["error", ["callback", "cb", "done"]],
-        "camelcase": ["error", "always"],
+        "camelcase": "error",
         "capitalized-comments": "off",
         "class-methods-use-this": "error",
         "comma-dangle": ["error", "always-multiline"],
