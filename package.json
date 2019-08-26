@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-agata",
+  "version": "0.1.0",
+  "description": "Eslint config for Agata projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioncreature/eslint-config-agata.git"
+  },
+  "keywords": [
+    "agata",
+    "eslint-config"
+  ],
+  "author": "Aleksandr Marenin <it.is.amarenin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ioncreature/eslint-config-agata/issues"
+  },
+  "homepage": "https://github.com/ioncreature/eslint-config-agata#readme",
+  "peerDependencies": {
+    "eslint": "^6.2.2"
+  },
+  "dependencies": {
+    "eslint-plugin-sonarjs": "0.4.0",
+    "eslint-plugin-node": "9.1.0"
+  }
+}
