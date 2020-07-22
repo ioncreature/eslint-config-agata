@@ -202,7 +202,7 @@ module.exports = {
         "no-undef-init": "error",
         "no-undefined": "off",
         "no-undef": "error",
-        "no-underscore-dangle": "error",
+        "no-underscore-dangle": ["error", {"allow": ["_id"]}],
         "no-unexpected-multiline": "error",
         "no-unmodified-loop-condition": "error",
         "no-unneeded-ternary": "error",
