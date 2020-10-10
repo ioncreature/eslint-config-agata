@@ -63,7 +63,6 @@ module.exports = {
         "keyword-spacing": ["error", {"before": true, "after": true}],
         "line-comment-position": "off",
         "linebreak-style": ["error", "unix"],
-        "lines-around-comment": ["error", {"beforeBlockComment": true}],
         "max-depth": ["error", 6],
         "max-len": ["error", 120, {
             "ignoreComments": true,
@@ -81,7 +80,6 @@ module.exports = {
         "new-parens": "off",
         "newline-after-var": "off",
         "newline-before-return": "off",
-        "newline-per-chained-call": ["error", {"ignoreChainWithDepth": 2}],
         "no-alert": "error",
         "no-array-constructor": "error",
         "no-async-promise-executor": "error",
@@ -258,7 +256,6 @@ module.exports = {
         "sort-keys": "off",
         "sort-vars": "off",
         "space-before-blocks": "error",
-        "space-before-function-paren": ["error", "never"],
         "space-in-parens": ["error", "never"],
         "space-infix-ops": "error",
         "space-unary-ops": "error",
