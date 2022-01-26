@@ -4,9 +4,9 @@ module.exports = {
     "env": {
         "es6": true
     },
-    "parser": "@babel/eslint-parser",
+    "parser": "babel-eslint",
     "parserOptions": {
-        "ecmaVersion": 2022,
+        "ecmaVersion": 2020,
     },
     "plugins": [
         "sonarjs",
